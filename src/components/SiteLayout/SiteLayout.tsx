@@ -11,7 +11,7 @@ import {
     Link,
 } from "@mui/material";
 import {Outlet} from "react-router-dom";
-import Copyright from "../copyright";
+import Copyright from "../Copyright/Copyright";
 import {Link as RouterLink} from 'react-router-dom'
 import {useLanguage} from "../../utils/translations";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";

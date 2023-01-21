@@ -53,24 +53,24 @@ const FocusHeader = () => {
 
 const FocusPractitioner = () => {
     return (
-        <CardActionArea component={RouterLink} to={"/practitioners/isabelle-delannoy"}>
+        <CardActionArea component={RouterLink} to={"/practitioners/random"}>
             <Card sx={{ display: 'flex' }}>
                 <CardContent sx={{ flex: 1 }}>
                     <Typography component="h2" variant="h5">
-                        Isabelle Delannoy (They/Them)
+                        First Name, Last Name, (Pronouns)
                     </Typography>
                     <Typography variant="subtitle1" color="text.secondary">
-                        {"counsellor, psychotherapist student"}
+                        {"qualification"}
                     </Typography>
                     <Typography variant="subtitle1" paragraph>
-                        {"I work with client who are ..."}
+                        {"blurb"}
                     </Typography>
                 </CardContent>
                 <CardMedia
                     component="img"
                     sx={{ width: 160, display: { xs: 'none', sm: 'block' } }}
-                    image={"https://c.pxhere.com/photos/30/13/women's_power_sexy_young_woman_girl_female_pretty_naked-1369735.jpg!d"}
-                    alt={"Isabelle Delannoy"}
+                    image={"https://source.unsplash.com/random"}
+                    alt={"Random"}
                 />
             </Card>
         </CardActionArea>

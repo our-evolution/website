@@ -1,8 +1,5 @@
+import FocusArea from "../models/FocusArea";
 
-export interface FocusArea {
-    id: string
-    image: string
-}
 
 const FocusAreaList:FocusArea[] = [
     {

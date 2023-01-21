@@ -3,8 +3,8 @@ import SiteLayout from './components/SiteLayout/SiteLayout'
 import IndexPage from './pages/IndexPage'
 import NotFoundPage from './pages/NotFoundPage'
 import FocusPage from './pages/FocusPage'
-import PractitionersPage from './pages/PractitionersPage'
-import PractitionersSearchPage from "./pages/PractitionersSearchPage";
+import PractitionersPage from './pages/DirectoryPage/DirectoryPage'
+import DirectorySearchPage from "./pages/DirectorySearchPage";
 import PractitionersDetailsPage from "./pages/PractitionersDetailsPage";
 import React from "react";
 
@@ -31,7 +31,7 @@ const createRoutes = (language: string, setLanguage: ((value: (((prevState: stri
                     children: [
                         {
                             index: true,
-                            element: <PractitionersSearchPage />,
+                            element: <DirectorySearchPage />,
                         },
                         {
                             path: ":therapistsId",

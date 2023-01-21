@@ -1,6 +1,6 @@
 import React from 'react';
 import {CssBaseline} from "@mui/material";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {/*createBrowserRouter,*/createHashRouter, RouterProvider} from "react-router-dom";
 import routes from './routes'
 import {createTheme, ThemeProvider, Theme} from '@mui/material/styles';
 import {ThemeOptions} from "@mui/material/styles";
@@ -37,7 +37,8 @@ function App() {
         <LanguageProvider lang={language}>
             <ThemeProvider theme={theme}>
                 <CssBaseline/>
-                <RouterProvider router={createBrowserRouter(routes(language, setLanguage))}/>
+                {/*<RouterProvider router={createBrowserRouter(routes(language, setLanguage))}/>*/}
+                <RouterProvider router={createHashRouter(routes(language, setLanguage))}/>
             </ThemeProvider>
         </LanguageProvider>
     );

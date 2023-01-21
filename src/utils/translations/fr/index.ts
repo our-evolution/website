@@ -125,8 +125,11 @@ let frenchLanguage: Translation = {
                 }
             ],
         ]
-    )
-
+    ),
+    directory: {
+        title: "Counselling professionals directory",
+        introductionText: "The professionals listed in this directory, all share a passion around supporting families struggling with any mental challenges related to peri-natal mental health.",
+    },
 };
 const frenchLanguageKey = "fr"
 const initialiseLanguage = ():void => {

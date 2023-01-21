@@ -2,7 +2,7 @@ import { Stack, Typography} from "@mui/material";
 import React from "react";
 import {useLanguage} from "../../utils/translations";
 import FocusAreaCard from "../../components/FocusAreaCard/FocusAreaCard";
-import FocusAreaList from "../../models/FocusAreaList";
+import FocusAreaList from "../../config/FocusAreaList";
 
 const FocusSection = () => {
     const focusSection = useLanguage().index.focusArea

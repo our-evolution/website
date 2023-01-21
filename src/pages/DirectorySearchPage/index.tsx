@@ -9,7 +9,7 @@ import {
     ListItem,
     Stack,
     TextField,
-    Typography
+    Typography, FormControl, ToggleButtonGroup, ToggleButton
 } from "@mui/material"
 import avatarImg from './avatar1.jpg'
 import {LocationOn} from "@mui/icons-material"
@@ -19,7 +19,7 @@ import {Link as RouterLink} from 'react-router-dom'
 
 const results = []
 
-const PractitionerCard = () => {
+const ProfessionalCard = () => {
     return (
         <Card>
             <Box sx={{p: 2, display: 'flex', backgroundColor: 'background.paper'}}>
@@ -63,22 +63,36 @@ const PractitionerCard = () => {
     )
 }
 
-
-const PractitionersSearchPage = () => {
+const DirectorySearchForm = () => {
     return (
-        <>
-            <TextField fullWidth label="Search for a practictioner"/>
-            <Typography variant="h5">Search Results ({results.length})</Typography>
-            <List>
-                <ListItem><PractitionerCard/></ListItem>
-                <ListItem><PractitionerCard/></ListItem>
-                <ListItem><PractitionerCard/></ListItem>
-                <ListItem><PractitionerCard/></ListItem>
-                <ListItem><PractitionerCard/></ListItem>
-                <ListItem><PractitionerCard/></ListItem>
-            </List>
-        </>
+        <FormControl>
+            <ToggleButtonGroup>
+                <ToggleButton value="in-person">In person</ToggleButton>
+                <ToggleButton value="remote">Online</ToggleButton>
+            </ToggleButtonGroup>
+            <ToggleButtonGroup>
+                <ToggleButton value="english">English</ToggleButton>
+                <ToggleButton value="italian">Italian</ToggleButton>
+                <ToggleButton value="french">French</ToggleButton>
+            </ToggleButtonGroup>
+        </FormControl>
+    )
+}
+//             <TextField fullWidth label="Search for a practictioner"/>
+//             <Typography variant="h5">Search Results ({results.length})</Typography>
+//             <List>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//                 <ListItem><ProfessionalCard/></ListItem>
+//             </List>
+//         </>
+const DirectorySearchPage = () => {
+    return (
+        <DirectorySearchForm />
     )
 }
 
-export default PractitionersSearchPage
+export default DirectorySearchPage

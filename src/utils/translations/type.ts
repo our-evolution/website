@@ -33,8 +33,15 @@ interface IndexPageTranslation {
     directory: IndexDirectorySectionTranslation
 
 }
+
+interface DirectoryPageTranslation {
+    title: string
+    introductionText: string
+}
 export interface Translation {
     global: GlobalTranslation
     index: IndexPageTranslation
     focusAreas: Map<string, FocusAreaTranslation>
+
+    directory: DirectoryPageTranslation
 }
