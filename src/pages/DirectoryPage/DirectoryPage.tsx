@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, CardContent, Typography} from "@mui/material";
+import {Typography} from "@mui/material";
 import {Outlet} from "react-router-dom";
 import {useLanguage} from "../../utils/translations";
 

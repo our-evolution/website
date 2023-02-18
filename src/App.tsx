@@ -31,7 +31,7 @@ const lightTheme = createTheme(
 )
 
 function App() {
-    const [language, setLanguage] = React.useState<string>("fr")
+    const [language, setLanguage] = React.useState<string>("en")
     const [theme] = React.useState<Theme>(lightTheme)
     return (
         <LanguageProvider lang={language}>

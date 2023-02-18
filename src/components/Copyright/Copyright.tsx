@@ -2,7 +2,7 @@ import {Typography, Box} from "@mui/material";
 import React from "react";
 
 
-export default () => {
+const Copyright = () => {
     return (
         <Box sx={{p: 2}}>
             <Typography variant="body2" color="text.secondary">
@@ -14,3 +14,5 @@ export default () => {
     </Box>
     );
 }
+
+export default Copyright

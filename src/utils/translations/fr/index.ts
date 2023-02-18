@@ -1,6 +1,6 @@
 // English Translation for the website
 import { registerLanguage, setDefaultLanguage } from '../languageRegistry'
-import {FocusAreaTranslation, Translation} from "../type";
+import {FocusAreaTranslation, FocusCategoryTranslation, Translation} from "../type";
 
 let frenchLanguage: Translation = {
     global: {
@@ -54,76 +54,124 @@ let frenchLanguage: Translation = {
                 "preconception",
                 {
                     title: "Preconception",
-                    conditions: [
-                        "Contemplation",
-                        "Ambivalence",
-                        "Planning for parenthood",
-                        "Older parenthood",
-                        "Parenting with a disability",
-                        "Trans generational trauma",
-                    ],
+                    text: ""
                 },
             ],
             [
                 "conception",
                 {
                     title: "Conception",
-                    conditions: [
-                        "Fertility – IVF",
-                        "Artificial Reproductive Techniques (sperm donation/egg donation)",
-                        "Endometriosis/Polycystic Ovarian Syndrome",
-                        "Gender Identity",
-                        "Fertility for single-sex couples",
-                    ],
+                    text: ""
                 },
             ],
             [
                 "pregnancybirth",
                 {
                     title: "Pregnancy & birth",
-                    conditions: [
-                        "Abortion",
-                        "Tokophobia (Fear of childbirth)",
-                        "Hyperemesis Gravidarum (severe sickness)",
-                        "Termination for fetal abnormality",
-                        "Domestic abuse/coercive control",
-                        "Miscarriage",
-                        "Loss",
-                        "Stillbirth",
-                        "Premature birth/parenting a high dependency baby",
-                        "Trauma",
-                        "Twins and multiples",
-                        "Mental illness/mood disorders"
-                    ],
+                    text: ""
                 }
             ],
             [
                 "postbirthparenthood",
                 {
                     title: "Post birth & parenhood",
-                    conditions: [
-                        "Mental illness/mood disorders",
-                        "Postpartum psychosis",
-                        "Neurodivergence – parent and/or child",
-                        "Bonding and attachment",
-                        "Returning to work",
-                        "Ecological parenting",
-                        "Single parenting",
-                        "Cross-cultural parenting",
-                        "Conscious/gentle parenting",
-                        "Parenting a child with disabilities",
-                        "Parental burn out",
-                        "Perinatal anger and rage",
-                    ],
+                    text: ""
                 }
             ],
             [
                 "menopause",
                 {
                     title: "Menopause",
-                    conditions: []
+                    text: ""
                 }
             ],
+        ]
+    ),
+
+    focusCategories: new Map<string, FocusCategoryTranslation>(
+        [
+
+            // Pre conception
+            ["contemplation", {title: "Comtemplation", text: ""}],
+            ["ambivalence", {title: "Ambivalence", text: ""}],
+            ["planning-parenthood", {title: "Planning for parenthood", text: ""}],
+            ["older-parenthood", {title: "Older parenthood", text: ""}],
+            ["parenting-with-disability", {title: "Parenting with a disability", text: ""}],
+            ["trans-generational-trauma", {title: "Trans generational trauma", text: ""}],
+            // Conception
+            ["fertility", {title: "Fertility – IVF", text: ""}],
+            ["artifical-reproductive-techniques", {title: "Artificial Reproductive Techniques (sperm donation/egg donation)", text: ""}],
+            ["endometriosis", {title: "Endometriosis/Polycystic Ovarian Syndrome", text: ""}],
+            ["gender-identity", {title: "Gender Identity", text: ""}],
+            ["fertility-single-sex-couples", {title: "Fertility for single-sex couples", text: ""}],
+            // Pregnancy
+
+            ["abortion", {title: "Abortion", text: ""}],
+            ["tokophobia", {title: "Tokophobia (Fear of childbirth)", text: ""}],
+            ["hyperemesis-gravidarum", {title: "Hyperemesis Gravidarum (severe sickness)", text: ""}],
+            ["termination", {title: "Termination for fetal abnormality", text: ""}],
+            ["domestic-abuse", {title: "Domestic abuse/coercive control", text: ""}],
+            ["miscarriage", {title: "Miscarriage", text: ""}],
+            ["loss", {title: "Loss", text: ""}],
+            ["stillbirth", {title: "Stillbirth", text: ""}],
+            ["premature",{title: "Premature birth/parenting a high dependency baby", text: ""}],
+            ["trauma", {title: "Trauma", text: ""}],
+            ["twins-multiples", {title: "Twins and multiples", text: ""}],
+            // mental-illness
+            // postbirthparenthood
+            ["mental-illness", {
+                title: "Mental illness/mood disorders",
+                text: ""
+            }],
+            ["postpartum-psychosis", {
+                title: "Postpartum psychosis",
+                text: ""
+            }],
+            ["neurodivergence", {
+                title: "Neurodivergence – parent and/or child",
+                text: "",
+            }],
+            ["bonding-attachment", {
+                title: "Bonding and attachment",
+                text: ""
+            }],
+            ["return-to-work", {
+                title: "Returning to work",
+                text: "",
+            }],
+            ["ecological-parenting", {
+                title: "Ecological parenting",
+                text: "",
+            }],
+            ["single-parent", {
+                title: "Single parenting",
+                text: "",
+            }],
+            ["cross-cultural", {
+                title: "Cross-cultural parenting",
+                text: ""
+            }],
+            ["conscious-parenting", {
+                title: "Conscious/gentle parenting",
+                text: ""
+            }],
+            ["child-disabilities", {
+                title: "Parenting a child with disabilities",
+                text: "",
+            }],
+            ["parental-burn-out", {
+                title: "Parental burn out",
+                text: "",
+            }],
+            ["perinatal-anger", {
+                title: "Perinatal anger and rage",
+                text: "",
+            }],
+            // Focus Area Menopause
+            ["menopause", {
+                title: "Menopause",
+                text: ""
+            }],
         ]
     ),
     directory: {

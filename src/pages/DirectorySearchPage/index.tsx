@@ -5,10 +5,7 @@ import {
     Card,
     Divider,
     Button,
-    List,
-    ListItem,
     Stack,
-    TextField,
     Typography, FormControl, ToggleButtonGroup, ToggleButton
 } from "@mui/material"
 import avatarImg from './avatar1.jpg'
@@ -16,8 +13,6 @@ import {LocationOn} from "@mui/icons-material"
 import ContentPasteSearchIcon from '@mui/icons-material/ContentPasteSearch'
 import {Link as RouterLink} from 'react-router-dom'
 
-
-const results = []
 
 const ProfessionalCard = () => {
     return (
@@ -34,7 +29,7 @@ const ProfessionalCard = () => {
                 <Button
                     variant="outlined"
                     component={RouterLink}
-                    to="/practitioners/isabelle-delannoy"
+                    to="/practitioners/random"
                     endIcon={<ContentPasteSearchIcon fontSize="inherit"/>}
                     sx={{marginLeft: "auto", marginRight: "1em", my: "auto", color: 'primary.main'}}
                     size="large"

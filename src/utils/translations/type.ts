@@ -23,8 +23,13 @@ interface IndexFocusAreaSectionTranslation {
     description: string
 }
 export interface FocusAreaTranslation {
-    conditions: Array<string>
+    text: string
     title: string
+}
+
+export interface FocusCategoryTranslation {
+    title: string
+    text: string
 }
 
 interface IndexPageTranslation {
@@ -42,6 +47,7 @@ export interface Translation {
     global: GlobalTranslation
     index: IndexPageTranslation
     focusAreas: Map<string, FocusAreaTranslation>
+    focusCategories: Map<string, FocusCategoryTranslation>
 
     directory: DirectoryPageTranslation
 }

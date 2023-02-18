@@ -21,6 +21,7 @@ const FocusSection = () => {
                             key={topic.id}
                             id={topic.id}
                             image={topic.image}
+                            categories={topic.categories}
                         />
                     )
                 })}

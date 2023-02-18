@@ -3,13 +3,23 @@ import {FocusAreaTranslation} from "../../utils/translations/type";
 import {Card, CardActions, CardContent, CardMedia, Link, List, ListItem, Typography} from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
 import React from "react";
+import {useCategoryTranslation} from "../../pages/FocusPage/FocusPageCategory";
 
 export interface FocusAreaCardOptions {
     id: string
     image: string
+    categories: Array<string>
 }
-
-const FocusAreaCard = ({id, image}:FocusAreaCardOptions) => {
+export const FocusCategoryItem = ({focusId, categoryId}: {focusId: string, categoryId: string}) => {
+    const translation = useCategoryTranslation(categoryId)
+    return (
+        <ListItem>
+            {translation.text !== "" && <Link variant="body2" component={RouterLink} to={`/focus/${focusId}/${categoryId}`}>{translation.title}</Link>}
+            {translation.text === "" && <Typography variant="body2">{translation.title}</Typography>}
+        </ListItem>
+    )
+}
+const FocusAreaCard = ({id, image, categories}:FocusAreaCardOptions) => {
     const focusAreas = useLanguage().focusAreas
 
     let focusArea = {title: "Not available"} as FocusAreaTranslation
@@ -31,10 +41,9 @@ const FocusAreaCard = ({id, image}:FocusAreaCardOptions) => {
             </CardActions>
             <CardContent>
                 <List dense={true}>
-                    {focusArea.conditions.map((item, index) => {
-                        return <ListItem key={index}><Typography variant="body2">{item}</Typography></ListItem>
+                    {categories.map((item, index) => {
+                        return <FocusCategoryItem focusId={id} categoryId={item} key={index} />
                     })}
-
                 </List>
             </CardContent>
         </Card>
