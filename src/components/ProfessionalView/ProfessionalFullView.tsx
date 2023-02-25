@@ -27,7 +27,7 @@ const ProfessionalFullView = ({professional}:{professional: ProfessionalModel}) 
             <Grid item xs={4} md={4}>
                 <Paper sx={{paddingBottom: ".8em"}}>
                     <Stack direction="column" spacing={2} sx={{margin: ".8em"}}>
-                        <img src={professional.pictureURL} />
+                        <img src={professional.pictureURL} alt={professional.firstName + " " + professional.lastName} />
                         <Typography variant="h6">Qualifications</Typography>
                         <ProfessionalQualifications professional={professional} />
                         <Divider />
