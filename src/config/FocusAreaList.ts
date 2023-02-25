@@ -1,4 +1,4 @@
-import FocusArea from "../models/FocusArea";
+import FocusArea from "../libs/models/FocusArea";
 
 const FocusAreaList:FocusArea[] = [
     {

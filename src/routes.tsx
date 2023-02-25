@@ -1,14 +1,14 @@
+import React from "react";
 import { RouteObject } from "react-router-dom"
 import SiteLayout from './components/SiteLayout/SiteLayout'
-import IndexPage from './pages/IndexPage'
-import NotFoundPage from './pages/NotFoundPage'
-import FocusPage from './pages/FocusPage/FocusPage'
-import PractitionersPage from './pages/DirectoryPage/DirectoryPage'
-import DirectorySearchPage from "./pages/DirectorySearchPage";
-import PractitionersDetailsPage from "./pages/PractitionersDetailsPage";
-import React from "react";
-import FocusPageCategory from "./pages/FocusPage/FocusPageCategory";
-import FocusPageIndex from "./pages/FocusPage/FocusPageIndex";
+import IndexPage from './components/pages/IndexPage'
+import NotFoundPage from './components/pages/NotFoundPage'
+import FocusPage from './components/pages/FocusPage/FocusPage'
+import DirectoryPage from './components/pages/DirectoryPage/DirectoryPage'
+import DirectoryResultsPage from './components/pages/DirectoryPage/DirectoryResultsPage'
+import FocusPageCategory from './components/pages/FocusPage/FocusPageCategory'
+import FocusPageIndex from './components/pages/FocusPage/FocusPageIndex'
+import ProfilePage from './components/pages/ProfilePage'
 
 const createRoutes = (language: string, setLanguage: ((value: (((prevState: string) => string) | string)) => void)): RouteObject[] => {
     return  [
@@ -38,18 +38,18 @@ const createRoutes = (language: string, setLanguage: ((value: (((prevState: stri
                     ]
                 },
                 {
-                    path: "practitioners",
-                    element: <PractitionersPage />,
+                    path: "directory",
+                    element: <DirectoryPage />,
                     children: [
                         {
                             index: true,
-                            element: <DirectorySearchPage />,
-                        },
-                        {
-                            path: ":therapistsId",
-                            element: <PractitionersDetailsPage />,
+                            element: <DirectoryResultsPage />,
                         },
                     ]
+                },
+                {
+                    path: "profiles/:professionalId",
+                    element: <ProfilePage />
                 },
                 {
                     path: "*",

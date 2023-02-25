@@ -4,7 +4,7 @@ import {/*createBrowserRouter,*/createHashRouter, RouterProvider} from "react-ro
 import routes from './routes'
 import {createTheme, ThemeProvider, Theme} from '@mui/material/styles';
 import {ThemeOptions} from "@mui/material/styles";
-import {LanguageProvider} from "./utils/translations";
+import {LanguageProvider} from "./libs/translations";
 
 export const themeOptions: ThemeOptions = {
     palette: {

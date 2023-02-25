@@ -1,9 +1,9 @@
-import {useLanguage} from "../../utils/translations";
-import {FocusAreaTranslation} from "../../utils/translations/type";
+import {useLanguage} from "../../libs/translations";
+import {FocusAreaTranslation} from "../../libs/models/Translation";
 import {Card, CardActions, CardContent, CardMedia, Link, List, ListItem, Typography} from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
 import React from "react";
-import {useCategoryTranslation} from "../../pages/FocusPage/FocusPageCategory";
+import {useCategoryTranslation} from "../pages/FocusPage/FocusPageCategory";
 
 export interface FocusAreaCardOptions {
     id: string

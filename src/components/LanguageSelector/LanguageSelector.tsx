@@ -1,17 +1,18 @@
 import React from 'react'
 import {FormControl, InputLabel, MenuItem, Select, SelectChangeEvent} from "@mui/material";
-import getLanguageList from "../../utils/translations/getLanguageList";
-import {useLanguage} from "../../utils/translations";
+import getLanguageList from "../../libs/translations/getLanguageList";
+import {useLanguage} from "../../libs/translations";
 
 const LanguageSelector = ({language, setLanguage}: {language: string, setLanguage: ((value: (((prevState: string) => string) | string)) => void)}) => {
     const handleChange = (event: SelectChangeEvent) => {
         setLanguage(event.target.value);
     };
     const languageLists = getLanguageList()
-    const global = useLanguage().global
+
+    const translations = useLanguage()
     return (
         <FormControl sx={{ m: 1, minWidth: 120}} size="small">
-            <InputLabel id="language-selector">{global.languageSelectorTitle}</InputLabel>
+            <InputLabel id="language-selector">{translations.global.languageSelectorTitle}</InputLabel>
             <Select
                 labelId="language-selector"
                 id="language-selector"
@@ -19,9 +20,9 @@ const LanguageSelector = ({language, setLanguage}: {language: string, setLanguag
                 label="Language"
                 onChange={handleChange}
             >
-                {languageLists.map((langInfo, index) => {
+                {languageLists.map((langKey, index) => {
                     return (
-                        <MenuItem key={index} value={langInfo.value}>{langInfo.label}</MenuItem>
+                        <MenuItem key={index} value={langKey.value}>{translations.languages.get(langKey.value)||"???"}</MenuItem>
                     )
                 })}
             </Select>

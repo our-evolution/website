@@ -13,7 +13,7 @@ import {
 import {Outlet} from "react-router-dom";
 import Copyright from "../Copyright/Copyright";
 import {Link as RouterLink} from 'react-router-dom'
-import {useLanguage} from "../../utils/translations";
+import {useLanguage} from "../../libs/translations";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 export interface SiteLayoutOptions {
@@ -38,13 +38,13 @@ const SiteLayout = ({language, setLanguage}:SiteLayoutOptions) => {
                 <Outlet/>
             </Container>
 
-            <Paper sx={{ position: 'sticky', bottom: 0, left: 0, right: 0 }} elevation={3}>
+            <Paper sx={{ position: 'sticky', bottom: 0, left: 0, right: 0, marginTop: "1em" }} elevation={3}>
                 <Grid container>
                     <Grid item sm={2} md={2} lg={2}>&nbsp;</Grid>
                     <Grid item sm={8} md={2} lg={8}>
                         <BottomNavigation showLabels>
                             <BottomNavigationAction component={RouterLink} to={"/"} label={trans.navToHome} />
-                            <BottomNavigationAction component={RouterLink} to={"/practitioners"} label={trans.navToDirectory} />
+                            <BottomNavigationAction component={RouterLink} to={"/directory"} label={trans.navToDirectory} />
                         </BottomNavigation>
                     </Grid>
                     <Grid item sm={0} md={2} lg={2} sx={{display: {xs: 'none', md: 'block', lg: 'block'}}}>
