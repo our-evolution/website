@@ -15,7 +15,7 @@ import ProfessionalQualifications from "./ProfessionalQualifications";
 
 const ProfessionalListView = ({professional}:{professional: ProfessionalModel}) => {
     return (
-        <Card sx={{ display: 'flex' }}>
+        <Card sx={{ display: 'flex', marginTop: '1em' }}>
             <CardMedia
                 component="img"
                 sx={{width: 350}}

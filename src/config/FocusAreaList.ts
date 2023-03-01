@@ -33,7 +33,7 @@ const FocusAreaList:FocusArea[] = [
             "hyperemesis-gravidarum",
             "termination",
             "domestic-abuse",
-            "micarriage",
+            "miscarriage",
             "loss",
             "stillbirth",
             "premature-birth",
