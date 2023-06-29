@@ -16,7 +16,7 @@ export const HenriettaWhitfield: ProfessionalModel = {
         firstName: "Henrietta",
         middleName: "",
         lastName: "Whitfield",
-        pronouns: "She/Her",
+        pronouns: "",
         country: "UK",
         location: "",
         languages: ["en"],
