@@ -20,7 +20,7 @@ export const MihaelaHartescu: ProfessionalModel = {
         firstName: "Mihaela-Leocadia",
         middleName: "",
         lastName: "Hartescu",
-        pronouns: "She/Her",
+        pronouns: "",
         country: "Italy",
         location: "Milan",
         languages: ["ro", "en", "it"],
