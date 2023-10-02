@@ -18,7 +18,7 @@ export const LynneBall: ProfessionalModel = {
         firstName: "Lynne",
         middleName: "",
         lastName: "Ball",
-        pronouns: "She/Her",
+        pronouns: "",
         country: "UK",
         location: "Winchester, Hampshire",
         languages: ["en"],

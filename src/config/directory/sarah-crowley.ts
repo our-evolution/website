@@ -15,7 +15,7 @@ export const SarahCrowley: ProfessionalModel = {
         firstName: "Sarah",
         middleName: "",
         lastName: "Crowley",
-        pronouns: "She/Her",
+        pronouns: "",
         country: "UK",
         location: "Forest Row, East Sussex",
         languages: ["en"],

@@ -22,7 +22,7 @@ export const LucyWalthoe: ProfessionalModel = {
         firstName: "Lucy",
         middleName: "",
         lastName: "Walthoe",
-        pronouns: "She/Her",
+        pronouns: "",
         country: "UK",
         location: "Newbury, Berkshire",
         languages: ["en"],
