@@ -48,7 +48,7 @@ export const SarahCrowley: ProfessionalModel = {
             "Miscarriage", // taken from website and subject to change
         ],
         websiteURL: "https://www.valenciapsychotherapy.com/",
-        pictureURL: "", 
+        pictureURL: undefined,
         email: "sarah@valenciapsychotherapy.com",
-        phone: null, // no phone number given in email or on website
+        phone: undefined, // no phone number given in email or on website
     }

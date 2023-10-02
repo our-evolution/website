@@ -8,7 +8,7 @@ const enBiography = [
     `I  know that both longing for a child and becoming a parent changes you in very fundamental ways. Often these changes are not understood or supported by modern society. I have observed how society and culture wrongly assumes that women will know how to be a mother, and that they will always enjoy the job of mothering, and that they can continue previous lives and relationships as before. These assumptions often leave women feeling alone and self-doubting.`,
     `Sometimes my clients simply need a non-judgemental and supportive space in which to express their experience of parenthood. Sometimes parenthood can stir deeper emotional traumas that can manifest in a multitude of emotional and physical responses. We will work together to make sense of your experience in order to find ways for you to cope with the current shape of your life, or enable you to work towards changes you might want to make.`,
 ]
-const enShortBiography = ``,
+const enShortBiography = ``
 
 export const HenriettaWhitfield: ProfessionalModel = {
         id: "henrietta-whitfield",
@@ -47,8 +47,8 @@ export const HenriettaWhitfield: ProfessionalModel = {
             "",
             
         ],
-        websiteURL: null,
-        pictureURL: "", 
+        websiteURL: undefined,
+        pictureURL: undefined,
         email: "henriettarosepsychotheraoist@gmail.com",
         phone: "+44 7901 118588",
     }

@@ -7,10 +7,8 @@ const enBiography = [
     `Our sessions will be in English and I have experience working with pregnancy, birth trauma, IVF, miscarriage, termination, depression in the postnatal period, contemplating becoming a parent, societal/family pressures to have children and bonding and attachment.`, 
 ]
 
-const enShortBiography = [
-                        `I am an MBACP qualified Counsellor working in private practice in Winchester and have a special interest in perinatal mental health. Being apart of the OurEvolution project has inspired my work with both men and women, supporting them wherever they are in their parenthood journey.`,
-                        `I work with individuals and couples both in person and online and can be contacted at lynneball@uniquelyyoucounselling.co.uk if you would like to find out more about how I can support you on your unique journey.`
-                    ] 
+const enShortBiography = `I am an MBACP qualified Counsellor working in private practice in Winchester and have a special interest in perinatal mental health. Being apart of the OurEvolution project has inspired my work with both men and women, supporting them wherever they are in their parenthood journey. I work with individuals and couples both in person and online and can be contacted at lynneball@uniquelyyoucounselling.co.uk if you would like to find out more about how I can support you on your unique journey.`
+
 
 export const LynneBall: ProfessionalModel = {
         id: "lynne-ball",
@@ -50,7 +48,7 @@ export const LynneBall: ProfessionalModel = {
             "",
         ],
         websiteURL: "www.uniquelyyoucounselling.co.uk",
-        pictureURL: "", 
+        pictureURL: undefined,
         email: "lynneball@uniquelyyoucounselling.co.uk",
         phone: "+44 7035 507271",
     }

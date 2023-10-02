@@ -50,8 +50,8 @@ export const MihaelaHartescu: ProfessionalModel = {
         categoryIds: [
            "", // waiting on these from Emma and Mihaela
         ],
-        websiteURL: null, 
-        pictureURL: "", 
+        websiteURL: undefined,
+        pictureURL: undefined,
         email: "mihaela.hartescu@gmail.com",
         phone: "+39 3884070669",
     }

@@ -72,7 +72,7 @@ export const ValeriaVilla: ProfessionalModel = {
 
         ],
         websiteURL: "https://valeriavillatherapy.com/",
-        pictureURL: "/directory/valeria-villa.jpg",
+        pictureURL: undefined,
         email: "valeria.villa@hotmail.co.uk",
         phone: "+447922924041",
     }

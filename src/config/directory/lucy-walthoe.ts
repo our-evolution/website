@@ -13,8 +13,7 @@ const enBiography = [
     `I had a 15+ year career helping organisations and teams manage change, explore new opportunities and recover from crises. I bring valuable insights from this experience into how people and teams manage and recover from difficulty. I know first-hand the challenge of managing a career and family life and some of the choices and questions parents have to negotiate. My initial training was in Philosophy and I bring a collaborative Existential ethos to my therapeutic work - we are equals who can work together to understand your experience and find your path to living more vibrantly.`,
     ]
 
-const enShortBiography = [
-                        ] 
+const enShortBiography =  ""
 
 export const LucyWalthoe: ProfessionalModel = {
         id: "lucy-walthoe",
@@ -53,8 +52,8 @@ export const LucyWalthoe: ProfessionalModel = {
         categoryIds: [
             "",
         ],
-        websiteURL: null,
-        pictureURL: "", 
+        websiteURL: undefined,
+        pictureURL: undefined,
         email: "lucywalthoetherapy@gmail.com",
         phone: "+44 7812 590503",
     }

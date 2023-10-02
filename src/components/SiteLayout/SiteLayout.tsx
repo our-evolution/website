@@ -14,7 +14,7 @@ import {Outlet} from "react-router-dom";
 import Copyright from "../Copyright/Copyright";
 import {Link as RouterLink} from 'react-router-dom'
 import {useLanguage} from "../../libs/translations";
-import LanguageSelector from "../LanguageSelector/LanguageSelector";
+// import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 export interface SiteLayoutOptions {
     language: string,
@@ -30,7 +30,7 @@ const SiteLayout = ({language, setLanguage}:SiteLayoutOptions) => {
                     <Link to={"/"} component={RouterLink} sx={{margin: "auto"}} >
                         <Typography variant="h1" color="white"  noWrap>{trans.title}</Typography>
                     </Link>
-                    <LanguageSelector language={language} setLanguage={setLanguage} />
+                    {/*<LanguageSelector language={language} setLanguage={setLanguage} />*/}
                 </Toolbar>
             </AppBar>
 
