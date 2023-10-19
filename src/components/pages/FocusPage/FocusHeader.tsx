@@ -42,7 +42,7 @@ const FocusHeader = ({focusArea}: {focusArea: FocusArea}) => {
                             backgroundColor: 'rgba(0,0,0,.3)',
                         }}
                     />
-                    <Grid container>
+                    <Grid container style={{marginTop: "1em", marginBottom: "1em"}}>
                         <Grid item md={6}>
                             <Box
                                 sx={{
@@ -58,7 +58,7 @@ const FocusHeader = ({focusArea}: {focusArea: FocusArea}) => {
                         </Grid>
                     </Grid>
                 </Paper>
-                <Typography variant="body1">{focusAreaTranslation.text}</Typography>
+                <Typography variant="body1" style={{marginTop: ".6em"}}>{focusAreaTranslation.text}</Typography>
             </>
         )
     }

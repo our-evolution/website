@@ -11,8 +11,8 @@ export const FocusAreaTherapistList = ({categoryIds}:{categoryIds: string[]}) =>
     const professionals = useProfessionalListByCategories(categoryIds)
     return (
         <>
-            <Typography variant="h3" align={"right"}>Our specialised practitioners</Typography>
-            <Masonry columns={3} spacing={2} style={{marginTop: "1em"}}>
+            <Typography variant="h3" align={"right"}>Our specialists</Typography>
+            <Masonry columns={3} spacing={2} style={{marginTop: ".6em"}}>
                 {professionals.map((professional) => {return (<ProfessionalView key={professional.id} professional={professional} variant="brief" />)})}
             </Masonry>
         </>
@@ -24,14 +24,14 @@ const FocusPageIndex = () => {
     // @ts-ignore
     return (
         <>
-            <Divider />
-            <Typography variant="h3">You are seeking help for:</Typography>
+            <Divider style={{marginTop: ".6em"}}/>
+            <Typography variant="h3">Areas we offer help for</Typography>
             <List dense={true}>
                 {focusArea?.categories.map((item, index) => {
                     return <FocusCategoryItem focusId={focusArea?.id} categoryId={item} key={index} />
                 })}
             </List>
-            <Divider/>
+            <Divider style={{marginTop: ".6em"}}/>
             <FocusAreaTherapistList categoryIds={focusArea?.categories|| []} />
         </>
     );

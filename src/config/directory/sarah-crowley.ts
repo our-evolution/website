@@ -43,9 +43,9 @@ export const SarahCrowley: ProfessionalModel = {
             groupsOutdoor: false,
         },
         categoryIds: [
-            "Older-Parenthood",
-            "Fertility",
-            "Miscarriage", // taken from website and subject to change
+            "older-parenthood",
+            "fertility",
+            "miscarriage", // taken from website and subject to change
         ],
         websiteURL: "https://www.valenciapsychotherapy.com/",
         pictureURL: undefined,

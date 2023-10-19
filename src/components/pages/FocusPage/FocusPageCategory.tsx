@@ -34,7 +34,7 @@ const FocusCategoryHeader = ({translation}: {translation: FocusCategoryTranslati
     return (
         <>
             <Typography variant="h3" align="center">{translation.title}</Typography>
-            <Typography variant="body1">{translation.text}</Typography>
+            <Typography variant="body1" style={{marginTop: ".6em"}}>{translation.text}</Typography>
         </>
     )
 }
@@ -44,7 +44,7 @@ export const FocusAreaCategoryTherapistList = ({focusCategoryId}:{focusCategoryI
 
     return (
         <>
-            <Typography variant="h3" align={"right"}>Our specialised practitioners</Typography>
+            <Typography variant="h3" style={{marginTop: ".6em"}} align={"right"}>Our specialists</Typography>
             <Masonry columns={2} spacing={2} style={{marginTop: "1em"}}>
                 {professionals.map((professional) => {return (<ProfessionalView key={professional.id} professional={professional} variant="brief" />)})}
             </Masonry>
@@ -60,7 +60,7 @@ const FocusPageCategory = () => {
         return (
             <>
                 <FocusCategoryHeader translation={translation}/>
-                <Divider/>
+                <Divider style={{marginTop: "1em", marginBottom: "1em"}}/>
                 <FocusAreaCategoryTherapistList focusCategoryId={focusCategory||""}/>
             </>
         )

@@ -50,5 +50,5 @@ export const HenriettaWhitfield: ProfessionalModel = {
         websiteURL: undefined,
         pictureURL: undefined,
         email: "henriettarosepsychotheraoist@gmail.com",
-        phone: "+44 7901 118588",
+        phone: "+44 79 01 118 588",
     }

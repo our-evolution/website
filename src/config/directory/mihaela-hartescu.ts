@@ -53,5 +53,5 @@ export const MihaelaHartescu: ProfessionalModel = {
         websiteURL: undefined,
         pictureURL: undefined,
         email: "mihaela.hartescu@gmail.com",
-        phone: "+39 3884070669",
+        phone: "+39 38 84 070 669",
     }

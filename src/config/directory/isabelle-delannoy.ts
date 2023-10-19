@@ -83,7 +83,7 @@ export const IsabelleDelannoy: ProfessionalModel = {
 
         ],
         websiteURL: "https://own-your-story.co.uk/",
-        pictureURL: "/directory/isabelle-delannoy.jpg",
+        pictureURL: "./directory/isabelle-delannoy.jpg",
         email: "isabelledelannoy@pm.me",
         phone: "+44 78 78 991 804",
     }

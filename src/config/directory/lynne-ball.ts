@@ -7,7 +7,7 @@ const enBiography = [
     `Our sessions will be in English and I have experience working with pregnancy, birth trauma, IVF, miscarriage, termination, depression in the postnatal period, contemplating becoming a parent, societal/family pressures to have children and bonding and attachment.`, 
 ]
 
-const enShortBiography = `I am an MBACP qualified Counsellor working in private practice in Winchester and have a special interest in perinatal mental health. Being apart of the OurEvolution project has inspired my work with both men and women, supporting them wherever they are in their parenthood journey. I work with individuals and couples both in person and online and can be contacted at lynneball@uniquelyyoucounselling.co.uk if you would like to find out more about how I can support you on your unique journey.`
+const enShortBiography = `I am an BACP qualified Counsellor working in private practice in Winchester and have a special interest in perinatal mental health. Being apart of the OurEvolution project has inspired my work with both men and women, supporting them wherever they are in their parenthood journey. I work with individuals and couples both in person and online and can be contacted at lynneball@uniquelyyoucounselling.co.uk if you would like to find out more about how I can support you on your unique journey.`
 
 
 export const LynneBall: ProfessionalModel = {
@@ -20,7 +20,7 @@ export const LynneBall: ProfessionalModel = {
         country: "UK",
         location: "Winchester, Hampshire",
         languages: ["en"],
-        qualifications: ["FdA Degree in Humanistic Counselling based on Transactional Analysis (BACP Accredited)", "Counselling support to patients at Park & St Francis Doctor’s Surgery - 2018/2020", "Diploma in Counselling",],
+        qualifications: ["Counsellor"],
         memberships: ["",],
         multiLingualBiography: new Map<string, string[]>(
             [
@@ -47,7 +47,7 @@ export const LynneBall: ProfessionalModel = {
         categoryIds: [
             "",
         ],
-        websiteURL: "www.uniquelyyoucounselling.co.uk",
+        websiteURL: "https://www.uniquelyyoucounselling.co.uk",
         pictureURL: undefined,
         email: "lynneball@uniquelyyoucounselling.co.uk",
         phone: "+44 7035 507271",

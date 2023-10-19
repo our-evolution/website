@@ -19,7 +19,7 @@ const itBiography = [
     ``
 ]
 
-const enShortBiography = ``
+const enShortBiography = `My name is Valeria and I am a qualified Psychotherapist and Psychotherapeutic Counsellor in Transactional Analysis. I provide psychotherapy and counselling and I am committed to create a space for you to feel supported confidentially and in a judgment-free environment. `
 
 const frShortBiography = `pourquoi venir me voir?`
 
@@ -72,7 +72,7 @@ export const ValeriaVilla: ProfessionalModel = {
 
         ],
         websiteURL: "https://valeriavillatherapy.com/",
-        pictureURL: undefined,
+        pictureURL: "http://valeriavillatherapy.com/wp-content/uploads/2018/11/IMG_8480-e1541239949968-225x300.jpg",
         email: "valeria.villa@hotmail.co.uk",
-        phone: "+447922924041",
+        phone: "+44 79 22 924 041",
     }
