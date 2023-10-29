@@ -7,6 +7,7 @@ const FocusAreaList:FocusArea[] = [
         categories: [
             "contemplation",
             "ambivalence",
+            "childhood-parenthood",
             "planning-parenthood",
             "older-parenthood",
             "parenting-with-disability",
@@ -61,7 +62,8 @@ const FocusAreaList:FocusArea[] = [
             "child-disabilities",
             "parental-burn-out",
             "perinatal-anger",
-
+            "partners",
+            "matrescence",
         ],
     },
     {

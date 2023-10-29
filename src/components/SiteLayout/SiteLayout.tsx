@@ -28,7 +28,7 @@ const SiteLayout = ({language, setLanguage}:SiteLayoutOptions) => {
             <AppBar position="static">
                 <Toolbar>
                     <Link to={"/"} component={RouterLink} sx={{margin: "auto"}} >
-                        <Typography variant="h1" color="white"  noWrap>{trans.title}</Typography>
+                        <Typography variant="h1" color="white">{trans.title}</Typography>
                     </Link>
                     {/*<LanguageSelector language={language} setLanguage={setLanguage} />*/}
                 </Toolbar>
