@@ -37,10 +37,10 @@ that we can all think and make decisions, and that we can change those
 decisions if we feel that the old ones do not serve us well anymore.`
 
 const frShortBiography = `pourquoi venir me voir?`
-export const IsabelleDelannoy: ProfessionalModel = {
-        id: "isabelle-delannoy",
+export const IsaDelannoy: ProfessionalModel = {
+        id: "isa-delannoy",
         title: undefined, // Mr/Miss/Dr/...
-        firstName: "Isabelle",
+        firstName: "Isa",
         middleName: "",
         lastName: "Delannoy",
         pronouns: "They/Them",
@@ -83,7 +83,7 @@ export const IsabelleDelannoy: ProfessionalModel = {
 
         ],
         websiteURL: "https://own-your-story.co.uk/",
-        pictureURL: "./directory/isabelle-delannoy.jpg",
+        pictureURL: "./directory/isa-delannoy.jpg",
         email: "isabelledelannoy@pm.me",
         phone: "+44 78 78 991 804",
     }

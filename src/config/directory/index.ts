@@ -1,7 +1,7 @@
 import ProfessionalModel from "../../libs/models/Professional";
 // Add all professionals here
 import { SusanneFuller } from './susanne-fuller'
-import { IsabelleDelannoy } from './isabelle-delannoy'
+import { IsaDelannoy } from './isa-delannoy'
 import { ValeriaVilla } from './valeria-villa'
 import { HenriettaWhitfield } from './henrietta-whitfield'
 import { LucyWalthoe } from './lucy-walthoe'
@@ -11,7 +11,7 @@ import { SarahCrowley } from './sarah-crowley'
 
 const professionals = new Map<string, ProfessionalModel>([
         [SusanneFuller.id,  SusanneFuller],
-        [IsabelleDelannoy.id, IsabelleDelannoy],
+        [IsaDelannoy.id, IsaDelannoy],
         [ValeriaVilla.id, ValeriaVilla],
         [HenriettaWhitfield.id, HenriettaWhitfield],
         [LucyWalthoe.id, LucyWalthoe],
