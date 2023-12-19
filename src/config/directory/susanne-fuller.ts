@@ -67,7 +67,8 @@ export const SusanneFuller: ProfessionalModel = {
             "trans-generational-trauma",
         ],
         websiteURL: "https://www.susannefullerpsychotherapy.com/",
-        pictureURL: "https://www.susannefullerpsychotherapy.com/wp-content/uploads/2020/04/SUSANNE-FULLER-PORTRAIT.png",
+        //pictureURL: "https://www.susannefullerpsychotherapy.com/wp-content/uploads/2020/04/SUSANNE-FULLER-PORTRAIT.png",
+        pictureURL: "./directory/susanne-fuller.png",
         email: "susannefullertherapy@gmail.com",
         phone: "+44 75 04 357 311",
     }

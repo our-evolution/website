@@ -2,10 +2,8 @@ import ProfessionalModel from "../../libs/models/Professional";
 
 
 const enBiography = [
-    `I have two children and work in private practice as well as in a college 
-and a charity as a volunteer counsellor. Looking at experiences of parenthood 
-led me to understand how much the right level and kind of support is crucial 
-in preventing and healing mental health issues in the perinatal domain.`,
+    `I have two children and work in private practice. I worked as a secondary school
+teacher in my first career.`,
     `This is why I am passionate about perinatal mental health. I believe that, 
 with the right support, you can cope better with your experience ; you can face 
 your responsibilities more serenely and prevent a lot of hurt within 

@@ -198,15 +198,16 @@ englishLanguage = {
             }],
             ["artifical-reproductive-techniques", {
                 title: "Artificial Reproductive Techniques (sperm donation / egg donation)",
-                text: `This term covers all different types of techniques used in assisted reproduction and (IUI, IVF,
-                ICSI, egg donor, and donor insemination). This is usually because there is some difficulty and 
-                pregnancy is not able to occur spontaneously. These are quite often used once other 
-                avenues have been exhausted. These techniques can often be gruelling for the woman, and 
-                the couple can find the pressure to succeed can impact their relationship negatively. 
-                Through our therapists, some offer group sessions for those struggling with infertility and 
-                therefore going through ART. Others offer individual or couples therapy too. Whatever type 
-                of therapy you choose, the therapists either have personal experience of some of these 
-                techniques or have a great deal of experience in offering therapy for them.`
+                text: `This term covers all different types of techniques used in assisted reproduction and (IUI, IVF, 
+                ICSI, egg donor, and donor insemination). This is usually because there is some difficulty and pregnancy 
+                is not able to occur spontaneously. These are quite often used once other avenues have been exhausted. 
+                These techniques can often be gruelling for the woman, and the couple can find the pressure to succeed 
+                can impact their relationship negatively.
+
+                Through our therapists, some offer group sessions for those struggling with infertility and therefore 
+                going through ART. Others offer individual or couples therapy too. Whatever type of therapy you choose, 
+                the therapists either have personal experience of some of these techniques or have a great deal of 
+                experience in offering therapy for them.`
             }],
             ["endometriosis", {
                 title: "Endometriosis / Polycystic Ovarian Syndrome",
@@ -222,13 +223,13 @@ englishLanguage = {
             }],
             ["gender-identity", {
                 title: "Gender Identity",
-                text: `Every birth giver is not a woman. There is support here, whatever your gender identity is. You 
+                text: `Not every birth giver is a woman. There is support here, whatever your gender identity is. You 
                 may want to talk about planning for a child, pregnancy, freezing your eggs, miscarriage and loss, 
                 abortion, the decision not to have a child, and what it means for you.
 
                 Becoming pregnant can come with deep feelings of inadequacy and doubt about your gender identity and 
-                lead to question everything that you have been taught about gender roles, what you perceive society, 
-                family, partner, friends expect of you, as a parent or the one carrying a baby. You can think about 
+                lead to questioning everything that you have been taught about gender roles, what you perceive society, 
+                family, partner and friends expect of you, as a parent or the one carrying the baby. You can think about 
                 what it means for you to become a parent and how it changes your identity.
 
                 The weight of external expectations and attitudes towards parents can be hard, whatever your gender 
@@ -364,14 +365,20 @@ englishLanguage = {
             }],
             ["premature-birth",{
                 title: "Premature birth / parenting a high dependency baby",
-                text: `According to UK charity Tommy’s, a pre-term birth is one that happens before 37 weeks of
-                pregnancy. Globally, more than 1 in 10 pregnancies result in a pre-term birth. This can be an
-                overwhelming, fraught and distressing experience for mothers, fathers and families, full of worry,
-                confusion, questions and intense emotional difficulty. At a time when we want to hold our baby
-                close and bond as a new family we must understand and manage the medical needs of our baby.
-                Psychotherapy offers us a safe, informed and accepting space in which we can work through our
-                difficult feelings, come to terms with our experience and understand and adjust to its impact on our
-                selves, our relationships and our family.`
+                text: `Having a premature infant is scary. Premature birth is defined as birth before 37 weeks
+                gestation. Several things can happen when a baby is born prematurely. Because the infant is
+                often born with an underdeveloped physiological system they may need to be placed in a
+                Neonatal unit and the invasiveness of the treatment the infant receives may concern the
+                mother. The nature of the birth may also have been shocking for the mother, leaving her
+                feeling unprepared and traumatised by the abrupt and early nature of the birth. With her
+                baby in NICU, there can be a rupture in bonding. A mother wants to be with her baby at all
+                times, particularly one who is desperately unwell, yet neonatal wards may seem like barriers
+                to connection. Thus, the experience can feel like a psychic trauma or violation to the mother
+                and can bring on symptoms of PTSD and extreme anxiety. After the experience, the mother
+                may have heightened anxiety and fear that the bonding and attachment processes have
+                been ruptured or broken in some way. Therapy can offer a space to speak about this
+                experience, can offer reassurance and help towards the bonding and attachment process
+                and can lessen the symptoms of trauma and anxiety.`
             }],
             ["trauma", {
                 title: "Trauma",
@@ -449,7 +456,12 @@ englishLanguage = {
             }],
             ["neurodivergence", {
                 title: "Neurodivergence – parent and/or child",
-                text: ``,
+                text: `Being neurodivergent comes with its own challenges, and when you add becoming a parent, 
+                overwhelm can easily reach critical levels. Whether you have a slow process, constantly have a million 
+                things on your mind and struggle to switch off, or have difficulty being organised, or find it hard to 
+                understand and tolerate yours and others' feelings, being a parent can feel isolating, insurmountable 
+                and disempowering. Know that you are not the only one experiencing those feelings and that there is help 
+                available to be listened to, understood and supported with the challenges you are facing.`
             }],
             ["bonding-attachment", {
                 title: "Bonding and attachment",
@@ -479,7 +491,14 @@ englishLanguage = {
             }],
             ["ecological-parenting", {
                 title: "Ecological parenting",
-                text: ``,
+                text: `Our impact on the more-than-human, whether it is other living things and/or the environment, 
+                and, conversely, the impact of the world around us on how we feel and who we are, can form an important 
+                part of our relationship with our children, what it affords us, and what we want to offer to them.
+
+                We might have an acute awareness of how the changes in the environment and in the living world affect 
+                our mood, our way of parenting, our desires, hopes, expectations and attitudes. Having a space to think 
+                about what current changes on the planet mean for you as a parent or as you are thinking of becoming a 
+                parent can help you feel more confident to make conscious choices and feel supported while you do so.`,
             }],
             ["single-parent", {
                 title: "Single parenting",
@@ -506,17 +525,20 @@ englishLanguage = {
             }],
             ["conscious-parenting", {
                 title: "Conscious / gentle parenting",
-                text: `This type of parenting means that there are clear boundaries for your child, and you
-                then highlight what action it is that you want your child to take. This type of parenting is focused towards 
-                raising happy, well-adjusted and resilient children through the parents offering empathy, understanding and respect.
+                text: `This type of parenting means that there are clear boundaries for your child, and you then 
+                highlight what action it is that you want your child to take. This type of parenting is focused towards 
+                raising happy, well-adjusted and resilient children through the parents offering empathy, understanding 
+                and respect.
 
-                Do you want to learn about conscious or gentle parenting. Are you in a dilemma because those around you give you 
-                negative messages about this style of parenting? This is a space to explore why this type of parenting is growing in 
-                popularity, and how to deal with the difficult aspects that come with the choice to parent in this way.
+                Do you want to learn about conscious or gentle parenting. Are you in a dilemma because those around you 
+                give you negative messages about this style of parenting? This is a space to explore why this type of 
+                parenting is growing in popularity, and how to deal with the difficult aspects that come with the choice 
+                to parent in this way.
 
                 Parenting is tough at the best of times, and sometimes it can be difficult to remain calm and responsive 
-                to a child, especially when they are having a tantrum or would appear to be manipulating in some way. Psychotherapy 
-                can offer you ways of working with yourself and with your child to offer this style of parenting.`,
+                to a child, especially when they are having a tantrum or would appear to be manipulating in some way. 
+                Psychotherapy can offer you ways of working with yourself and with your child to offer this style of 
+                parenting.`,
             }],
             ["child-disabilities", {
                 title: "Parenting a child with disabilities",
@@ -623,7 +645,13 @@ englishLanguage = {
     },
     index: {
         welcome: {
-            missionStatement: "An international collective of experienced counsellors/therapists dedicated to offering psychotherapeutic support for everyone embarking on the joys, challenges and losses of the transformative journey of parenthood. From the earliest moments of pregnancy and at every stage that follows.",
+            clientStatement: [
+                "Welcome, we offer support for everyone on their parenting journey, from the earliest moments of pregnancy and at every stage that follows. No matter what you may be struggling with, we can offer help through individual, group or couples therapy. Our therapists work across Europe and provide psychotherapy and counselling sessions in different languages in person or online.",
+            ],
+            missionTitle: "Who we are",
+            missionStatement: [
+                "We are an international collective of experienced counsellors/therapists dedicated to offering psychotherapeutic support for everyone embarking on the joys, challenges and losses of the transformative journey of parenthood. From the earliest moments of pregnancy and at every stage that follows.",
+            ],
             purpose: "Our purpose is to advance psychotherapeutic support for everyone impacted by the transformational journey of parenthood. We do this by:",
             purposeItems: [
                 {
@@ -647,7 +675,6 @@ englishLanguage = {
                     description: "Engaging in personal and professional peer support, supervision and knowledge-sharing within the psychotherapy community to sustain ourselves and deepen and broaden our competence.",
                 },
             ],
-            title: "Welcome"
         },
         directory: {
             title: "Our Directory",
@@ -655,7 +682,7 @@ englishLanguage = {
             navToDirectory: "Find your counsellor or therapist",
         },
         focusArea: {
-            title: "Our Area of focus",
+            title: "Our Areas    of focus",
             description: "",
         }
     }

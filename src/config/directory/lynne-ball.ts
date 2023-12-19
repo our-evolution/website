@@ -48,7 +48,7 @@ export const LynneBall: ProfessionalModel = {
             "",
         ],
         websiteURL: "https://www.uniquelyyoucounselling.co.uk",
-        pictureURL: undefined,
+        pictureURL: "./directory/lynne-ball.jpg",
         email: "lynneball@uniquelyyoucounselling.co.uk",
         phone: "+44 7035 507271",
     }

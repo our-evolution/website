@@ -8,11 +8,10 @@ const enBiography = [
     `I receive regular supervision and work in accordance with the ethical standards of the BACP and UKCP. I am continuously investing in my professional development. I attend regular training and take part in research to improve the effectiveness of my approach, to the benefit of my clients. `,
 
 
-    `Before I became a therapist`,
-    `I had a 15+ year career helping organisations and teams manage change, explore new opportunities and recover from crises. I bring valuable insights from this experience into how people and teams manage and recover from difficulty. I know first-hand the challenge of managing a career and family life and some of the choices and questions parents have to negotiate. My initial training was in Philosophy and I bring a collaborative Existential ethos to my therapeutic work - we are equals who can work together to understand your experience and find your path to living more vibrantly.`,
+    `Before I became a therapist, I had a 15+ year career helping organisations and teams manage change, explore new opportunities and recover from crises. I bring valuable insights from this experience into how people and teams manage and recover from difficulty. I know first-hand the challenge of managing a career and family life and some of the choices and questions parents have to negotiate. My initial training was in Philosophy and I bring a collaborative Existential ethos to my therapeutic work - we are equals who can work together to understand your experience and find your path to living more vibrantly.`,
     ]
 
-const enShortBiography =  ""
+const enShortBiography =  "I am an integrative, relational therapist trained at the Metanoia Institute. My approach is based on a relational understanding of how we grow, develop and recover from difficulty. We thrive when we have a relationship that is dedicated, warm, compassionate, gently challenging and attuned to our unique needs, including our personal neurological style. I create this together with my clients, offering a space where you are safe to be vulnerable and find a fresh way forward."
 
 export const LucyWalthoe: ProfessionalModel = {
         id: "lucy-walthoe",
@@ -22,7 +21,7 @@ export const LucyWalthoe: ProfessionalModel = {
         lastName: "Walthoe",
         pronouns: "",
         country: "UK",
-        location: "Newbury, Berkshire",
+        location: "Newbury (Berkshire), Winchester (Hampshire)",
         languages: ["en"],
         qualifications: ["MBACP", "MPhil", "MA", "BA Hons (1st class)",],
         memberships: ["",],
@@ -41,11 +40,11 @@ export const LucyWalthoe: ProfessionalModel = {
             individualF2F: true,
             individualOnline: true,
             individualOutdoor: false,
-            couplesF2F: true,
-            couplesOnline: true,
+            couplesF2F: false,
+            couplesOnline: false,
             couplesOutdoor: false,
             groupsF2F: false,
-            groupsOnline: true,
+            groupsOnline: false,
             groupsOutdoor: false,
         },
         categoryIds: [
@@ -60,9 +59,12 @@ export const LucyWalthoe: ProfessionalModel = {
             "maternal-preoccupation",
             "bonding-attachment",
             "parental-burn-out",
+            "matrescence",
+            "bonding-attachment",
+            "gender-identity",
         ],
         websiteURL: undefined,
-        pictureURL: undefined,
+        pictureURL: "./directory/lucy-walthoe.jpg",
         email: "lucywalthoetherapy@gmail.com",
-        phone: "+44 7812 590503",
+        phone: "+44 78 12 590 503",
     }

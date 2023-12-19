@@ -65,7 +65,9 @@ let frenchLanguage: Translation = {
     },
     index: {
         welcome: {
-            missionStatement: "An international collective of experienced counsellors/therapists dedicated to offering psychotherapeutic support for everyone embarking on the joys, challenges and losses of the transformative journey of parenthood. From the earliest moments of pregnancy and at every stage that follows.",
+            clientStatement: [],
+            missionTitle: "TBD",
+            missionStatement: ["An international collective of experienced counsellors/therapists dedicated to offering psychotherapeutic support for everyone embarking on the joys, challenges and losses of the transformative journey of parenthood. From the earliest moments of pregnancy and at every stage that follows.",],
             purpose: "Our purpose is to advance psychotherapeutic support for everyone impacted by the transformational journey of parenthood. We do this by:",
             purposeItems: [
                 {
@@ -89,7 +91,6 @@ let frenchLanguage: Translation = {
                     description: "Engaging in personal and professional peer support, supervision and knowledge-sharing within the psychotherapy community to sustain ourselves and deepen and broaden our competence.",
                 },
             ],
-            title: "Bienvenue"
         },
         directory: {
             title: "Nos Professionels",
@@ -145,7 +146,7 @@ let frenchLanguage: Translation = {
         [
 
             // Pre conception
-            ["contemplation", {title: "Comtemplation", text: ""}],
+            ["contemplation", {title: "Contemplation", text: ""}],
             ["ambivalence", {title: "Ambivalence", text: ""}],
             ["planning-parenthood", {title: "Planning for parenthood", text: ""}],
             ["older-parenthood", {title: "Older parenthood", text: ""}],

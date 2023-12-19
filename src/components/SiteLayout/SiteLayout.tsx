@@ -43,8 +43,8 @@ const SiteLayout = ({language, setLanguage}:SiteLayoutOptions) => {
                     <Grid item sm={2} md={2} lg={2}>&nbsp;</Grid>
                     <Grid item sm={8} md={2} lg={8}>
                         <BottomNavigation showLabels>
-                            <BottomNavigationAction component={RouterLink} to={"/"} label={trans.navToHome} />
-                            <BottomNavigationAction component={RouterLink} to={"/directory"} label={trans.navToDirectory} />
+                            <BottomNavigationAction sx={{fontSize: "large"}} component={RouterLink} to={"/"} label={trans.navToHome} />
+                            <BottomNavigationAction sx={{fontSize: "18"}} component={RouterLink} to={"/directory"} label={trans.navToDirectory} />
                         </BottomNavigation>
                     </Grid>
                     <Grid item sm={0} md={2} lg={2} sx={{display: {xs: 'none', md: 'block', lg: 'block'}}}>

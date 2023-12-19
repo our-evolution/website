@@ -31,8 +31,8 @@ export const ValeriaVilla: ProfessionalModel = {
         middleName: "",
         lastName: "Villa",
         pronouns: "",
-        country: "Switzerland",
-        location: "",
+        country: "France",
+        location: "Ferney-Voltaire, Ain",
         languages: ["en", "fr", "it"],
         qualifications: ["Counsellor", "QTS", ],
         memberships: ["UKATA", "UKCP", "HACP", ],
@@ -72,7 +72,7 @@ export const ValeriaVilla: ProfessionalModel = {
 
         ],
         websiteURL: "https://valeriavillatherapy.com/",
-        pictureURL: "http://valeriavillatherapy.com/wp-content/uploads/2018/11/IMG_8480-e1541239949968-225x300.jpg",
+        pictureURL: "./directory/valeria-villa.jpg",
         email: "valeria.villa@hotmail.co.uk",
         phone: "+44 79 22 924 041",
     }

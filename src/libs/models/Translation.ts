@@ -16,8 +16,9 @@ interface GlobalTranslation{
     contactEmail: string
 }
 interface IndexWelcomeSectionTranslation {
-    title: string
-    missionStatement: string
+    clientStatement: string[]
+    missionTitle: string
+    missionStatement: string[]
     purpose: string
     purposeItems: Array<{value: string, description: string}>
 }
