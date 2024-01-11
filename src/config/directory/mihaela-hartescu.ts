@@ -51,7 +51,7 @@ export const MihaelaHartescu: ProfessionalModel = {
            "", // waiting on these from Emma and Mihaela
         ],
         websiteURL: undefined,
-        pictureURL: undefined,
+        pictureURL: "./directory/mihaela-leocadia-hartescu.jpg",
         email: "mihaela.hartescu@gmail.com",
         phone: "+39 38 84 070 669",
     }

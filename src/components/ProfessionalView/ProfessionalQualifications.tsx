@@ -4,7 +4,6 @@ import ProfessionalModel from "../../libs/models/Professional";
 
 const ProfessionalQualifications = ({professional}:{professional: ProfessionalModel}) => {
     return <Typography
-        noWrap
         gutterBottom
         variant="subtitle1"
         color="text.secondary"

@@ -8,6 +8,7 @@ import { LucyWalthoe } from './lucy-walthoe'
 import { LynneBall } from './lynne-ball'
 import { MihaelaHartescu} from './mihaela-hartescu'
 import { SarahCrowley } from './sarah-crowley'
+import { OliverHunt } from './oliver-hunt'
 
 const professionals = new Map<string, ProfessionalModel>([
         [SusanneFuller.id,  SusanneFuller],
@@ -18,6 +19,7 @@ const professionals = new Map<string, ProfessionalModel>([
         [LynneBall.id, LynneBall],
         //[MihaelaHartescu.id, MihaelaHartescu],
         [SarahCrowley.id, SarahCrowley],
+        [OliverHunt.id, OliverHunt],
     ])
 
 export default professionals

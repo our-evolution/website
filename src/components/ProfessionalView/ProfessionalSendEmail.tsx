@@ -6,6 +6,11 @@ import useLanguage from "../../libs/translations/useLanguage";
 
 const ProfessionalSendEmail = ({professional}: {professional: ProfessionalModel}) => {
     const text = useLanguage().global.contactEmail
-    return <Button startIcon={<EmailIcon />} variant="contained" href={`mailto:${professional.email}`} sx={{marginRight: ".5em", flex: '0 1 auto'}}>{text}</Button>;
+
+    return (
+        <>
+            {professional.email !== undefined && <Button startIcon={<EmailIcon />} variant="contained" href={`mailto:${professional.email}`} sx={{marginRight: ".5em", flex: '0 1 auto'}}>{text}</Button>}
+        </>
+    );
 }
 export default ProfessionalSendEmail
