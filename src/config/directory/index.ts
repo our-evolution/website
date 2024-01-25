@@ -17,7 +17,7 @@ const professionals = new Map<string, ProfessionalModel>([
         //[HenriettaWhitfield.id, HenriettaWhitfield],
         [LucyWalthoe.id, LucyWalthoe],
         [LynneBall.id, LynneBall],
-        //[MihaelaHartescu.id, MihaelaHartescu],
+        [MihaelaHartescu.id, MihaelaHartescu],
         [SarahCrowley.id, SarahCrowley],
         [OliverHunt.id, OliverHunt],
     ])
