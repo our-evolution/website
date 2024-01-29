@@ -570,26 +570,25 @@ englishLanguage = {
             }],
             ["sex-and-parenting", {
                 title: "Sex and parenting",
-                text: `Can we talk about sex? Far too often the answer is not that simple. However, sex during the 
-                parenting journey is an important part of connection and bonding for the parents, so sex needs to be 
-                talked about, and offering this within the therapeutic space can make it easier to start the conversation.
-                
-                Of course, sex is part of the parenting process at all the various stages. But it can seem like sex imply 
-                the way to conceive, of pressure to have sex at a specific time  When sex conception .shame, guilt, 
-                stress and confusion. We spend so long trying to stop becoming pregnant, that when we finally want to, it 
-                can feel nonsensical that sex doesn’t lead to conception easily: fing time for sex may become difficult; we 
-                don’t recognize our body after birth especially if we have traumatic birth experiences; wur attraction to 
-                our partner may dwindle; perhaps it feels to difficult to create space for pleasure; or we worry about the 
-                dynamics, what comes before, during and after sex. All of these can contribute to a feeling of judgement 
-                for our decisions and can be detrimental to our relationships.
-
-                These are just a few of the ways in which sex is involved in the parenting journey.
-                
-                Psychotherapy can offer us a space where we encounter sex as something that is open for discussion, 
-                sex as a process that evolves during our life and our parenting experiences rather than something that 
-                is static and needs to be performed or avoided according to specific rules and dynamics. Within the 
-                psychotherapeutic relationship, we can find a space where sex is not stigmatised but accepted as a 
-                human and healthy aspect of our life, worth of our time and curiosity.`
+                text: `Can we talk about sex? Far too often, the answer is not that simple. However, sex during
+the parenting journey is an important part of connection and bonding for the parents. So,
+sex needs to be talked about, and offering this within the therapeutic space can make it
+easier to start the conversation. Of course, sex is part of the parenting process at all the
+various stages. But it can seem like sex implies the way to conceive, of pressure to have
+sex at a specific time. Sex around conception can lead to shame, guilt, stress and
+confusion. We spend so long trying to stop becoming pregnant, that when we finally want
+to, it can feel nonsensical that sex does not lead to conception easily. Finding time for sex
+may become difficult; we don’t recognize our body after birth, especially if we have
+traumatic birth experiences; our attraction to our partner may dwindle; perhaps it feels too
+difficult to create space for pleasure; or we worry about the dynamics, what comes before,
+during and after sex. All of these can contribute to a feeling of judgement for our decisions
+and can be detrimental to our relationships. These are just a few of the ways in which sex
+is involved in the parenting journey. Psychotherapy can offer us a space where we
+encounter sex as something that is open for discussion, sex as a process that evolves
+during our life and our parenting experiences rather than something that is static and
+needs to be performed or avoided according to specific rules and dynamics. Within the
+psychotherapeutic relationship, we can find a space where sex is not stigmatised but
+accepted as a human and healthy aspect of our life, worth of our time and curiosity.`
             }],
             ["partners", {
                 title: "Fathers and partners",
