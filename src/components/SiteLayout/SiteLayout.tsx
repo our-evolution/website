@@ -25,10 +25,10 @@ const SiteLayout = ({language, setLanguage}:SiteLayoutOptions) => {
     const trans = useLanguage().global
     return (
         <>
-            <AppBar position="static">
+            <AppBar position="static" sx={{backgroundColor: 'white', boxShadow: 3, paddingBottom: 0}}>
                 <Toolbar>
                     <Link to={"/"} component={RouterLink} sx={{margin: "auto"}} >
-                        <Typography variant="h1" color="white">{trans.title}</Typography>
+                      <img src="/our-evolution-banner.png" alt="Our Evolution Banner" style={{height: "192px", paddingTop: ".2em", paddingBottom: ".2em"}} />
                     </Link>
                     {/*<LanguageSelector language={language} setLanguage={setLanguage} />*/}
                 </Toolbar>

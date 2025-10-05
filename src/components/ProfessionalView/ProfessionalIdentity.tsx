@@ -11,12 +11,12 @@ const ProfessionalIdentity = ({professional}:{professional: ProfessionalModel}) 
                 variant="h4">
                 {professional.title} {professional.firstName} {professional.lastName}
             </Typography>
-            <Typography
+            { professional.pronouns.length > 0 && <Typography
                 noWrap
                 gutterBottom
                 variant="h6">
                 ({professional.pronouns})
-            </Typography>
+            </Typography> }
         </>
     )
 }
