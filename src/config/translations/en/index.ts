@@ -50,7 +50,7 @@ englishLanguage = {
     ),
     directory: {
         title: "Our Professionals Directory",
-        introductionText: "The professionals listed in this directory, all share a passion around supporting families struggling with any challenges related to peri-natal mental health.",
+        introductionText: "The professionals listed in this directory, all share a passion around supporting families struggling with any challenges related to perinatal mental health.",
     },
     focusAreas: new Map<string, FocusAreaTranslation>(
         [
